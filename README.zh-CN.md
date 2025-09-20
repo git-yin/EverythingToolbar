@@ -1,4 +1,5 @@
-**其他语言版本: [English](README.md), [中文](README.zh-CN.md).**
+> [!NOTE]
+> 这是社区的翻译版本，因此可能并不总是最新的。若需获取最新内容，您可以随时查看英文的[README 文件](README.md)。
 
 # <img src="EverythingToolbar/Images/AppIcon.ico" width="24"> EverythingToolbar
 
@@ -47,21 +48,21 @@ EverythingToolbar在Windows 10和Windows 11上无缝运行，并与[ExplorerPatc
 
 ### 键盘快捷键
 
-| 快捷键                                                           | 功能                                 |
-|--------------------------------------------------------------------|------------------------------------------|
-| <kbd>↑</kbd> / <kbd>↓</kbd>                                        | 导航搜索结果                  |
-| <kbd>Ctrl</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>                     | 导航搜索历史（如果启用）    |
-| <kbd>Enter</kbd> / <kbd>点击</kbd>                                | 打开文件或文件夹                     |
-| <kbd>Ctrl</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>             | 打开所在文件夹                   |
-| <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>            | 在Everything中打开                      |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>                 | 复制完整路径到剪贴板             |
-| <kbd>Alt</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>              | 显示文件属性                     |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd> | 以管理员身份运行                     |
-| <kbd>Shift</kbd> + <kbd>右键点击</kbd>                         | 打开系统上下文菜单                |
-| (<kbd>Shift</kbd> +) <kbd>Tab</kbd>                               | 循环切换过滤器                    |
-| <kbd>Ctrl</kbd> + <kbd>0-9</kbd>                                  | 按数字选择过滤器                  |
-| <kbd>Space</kbd>                                                   | 在QuickLook中预览文件                |
-| <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                    | 聚焦搜索框（可自定义）         |
+| 快捷键                                                                   | 功能               |
+|-----------------------------------------------------------------------|------------------|
+| <kbd>↑</kbd> / <kbd>↓</kbd>                                           | 导航搜索结果           |
+| <kbd>Ctrl</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>                         | 导航搜索历史（如果启用）     |
+| <kbd>Enter</kbd> / <kbd>点击</kbd>                                      | 打开文件或文件夹         |
+| <kbd>Ctrl</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>                    | 打开所在文件夹          |
+| <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>                   | 在Everything中打开   |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>                     | 复制完整路径到剪贴板       |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd>                     | 显示文件属性           |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>点击</kbd> | 以管理员身份运行         |
+| <kbd>Shift</kbd> + <kbd>右键点击</kbd>                                    | 打开系统上下文菜单        |
+| (<kbd>Shift</kbd> +) <kbd>Tab</kbd>                                   | 循环切换过滤器          |
+| <kbd>Ctrl</kbd> + <kbd>0-9</kbd>                                      | 按数字选择过滤器         |
+| <kbd>Space</kbd>                                                      | 在QuickLook中预览文件  |
+| <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                        | 聚焦搜索框（可自定义）      |
 
 ## 📦 安装
 

@@ -1,4 +1,4 @@
-**Read this in other languages: [English](README.md), [中文](README.zh-CN.md).**
+_Read in other languages: [English](README.md), [中文](README.zh-CN.md)_
 
 # <img src="EverythingToolbar/Images/AppIcon.ico" width="24"> EverythingToolbar
 
@@ -47,21 +47,21 @@ EverythingToolbar works seamlessly on Windows 10 and Windows 11, and integrates 
 
 ### Keyboard Shortcuts
 
-| Shortcut                                                           | Function                                 |
-|--------------------------------------------------------------------|------------------------------------------|
-| <kbd>↑</kbd> / <kbd>↓</kbd>                                        | Navigate search results                  |
-| <kbd>Ctrl</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>                     | Navigate search history (if enabled)    |
-| <kbd>Enter</kbd> / <kbd>Click</kbd>                                | Open file or folder                     |
-| <kbd>Ctrl</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>             | Open containing folder                   |
-| <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>            | Open in Everything                      |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>                 | Copy full path to clipboard             |
-| <kbd>Alt</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>              | Show file properties                     |
+| Shortcut                                                                 | Function                                 |
+|--------------------------------------------------------------------------|------------------------------------------|
+| <kbd>↑</kbd> / <kbd>↓</kbd>                                              | Navigate search results                  |
+| <kbd>Ctrl</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>                            | Navigate search history (if enabled)     |
+| <kbd>Enter</kbd> / <kbd>Click</kbd>                                      | Open file or folder                      |
+| <kbd>Ctrl</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>                    | Open containing folder                   |
+| <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>                   | Open in Everything                       |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>                        | Copy full path to clipboard              |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd>                     | Show file properties                     |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> / <kbd>Click</kbd> | Run as administrator                     |
-| <kbd>Shift</kbd> + <kbd>Right Click</kbd>                         | Open system context menu                |
-| (<kbd>Shift</kbd> +) <kbd>Tab</kbd>                               | Cycle through filters                    |
-| <kbd>Ctrl</kbd> + <kbd>0-9</kbd>                                  | Select filter by number                  |
-| <kbd>Space</kbd>                                                   | Preview file in QuickLook                |
-| <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                    | Focus search box (customizable)         |
+| <kbd>Shift</kbd> + <kbd>Right Click</kbd>                                | Open system context menu                 |
+| (<kbd>Shift</kbd> +) <kbd>Tab</kbd>                                      | Cycle through filters                    |
+| <kbd>Ctrl</kbd> + <kbd>0-9</kbd>                                         | Select filter by number                  |
+| <kbd>Space</kbd>                                                         | Preview file in QuickLook                |
+| <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                           | Focus search box (customizable)          |
 
 ## 📦 Installation
 
