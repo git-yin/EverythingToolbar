@@ -38,7 +38,7 @@ jobs:
         run: MSBuild $Env:GITHUB_WORKSPACE /p:Configuration=Release /p:Platform=${{ matrix.arch }}
 
       - name: Install Inno Setup
-        run: choco install innosetup -y --version 6.4.0
+        run: choco install innosetup -y --version 6.5.4 --allow-downgrade
 
       - name: Build installer
         run: iscc /F"EverythingToolbar-${{ github.ref_name }}-${{ matrix.arch }}" "Installer\${{ matrix.installer }}"
