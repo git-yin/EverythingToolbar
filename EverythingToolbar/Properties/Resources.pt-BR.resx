@@ -142,7 +142,7 @@
     <value>Mostrar mais opções</value>
   </data>
   <data name="ContextMenuOpenWith" xml:space="preserve">
-    <value>Abrir com…</value>
+    <value>Abrir com...</value>
   </data>
   <data name="ContextMenuOpenWithChooseApp" xml:space="preserve">
     <value>Escolher aplicativo</value>
@@ -301,7 +301,7 @@
     <value>Mostrar contagem de resultados</value>
   </data>
   <data name="SettingsSortBy" xml:space="preserve">
-    <value>Ordenar por</value>
+    <value>Classificar por</value>
   </data>
   <data name="SettingsThumbnailsEnabled" xml:space="preserve">
     <value>Habilitar miniaturas</value>
@@ -400,7 +400,7 @@
     <value>Pesquisar enquanto digita</value>
   </data>
   <data name="SettingsUserInterface" xml:space="preserve">
-    <value>Interface do usuário</value>
+    <value>Interface</value>
   </data>
   <data name="SettingsAppearance" xml:space="preserve">
     <value>Aparência</value>
@@ -445,13 +445,13 @@
     <value>Copiar caminho para área de transferência</value>
   </data>
   <data name="ShortcutCycleFilters" xml:space="preserve">
-    <value>Cycle through filters</value>
+    <value>Alternar entre filtros</value>
   </data>
   <data name="ShortcutSelectFilter" xml:space="preserve">
     <value>Selecionar filtro</value>
   </data>
   <data name="ShortcutPreviewQuickLook" xml:space="preserve">
-    <value>Preview file in QuickLook</value>
+    <value>Visualizar arquivo no QuickLook</value>
   </data>
   <data name="SettingsHome" xml:space="preserve">
     <value>Início</value>
@@ -511,7 +511,7 @@
     <value>Configurações de pesquisa</value>
   </data>
   <data name="AboutUserInterface" xml:space="preserve">
-    <value>Interface do usuário</value>
+    <value>Interface</value>
   </data>
   <data name="AboutCustomActions" xml:space="preserve">
     <value>Ações personalizadas</value>
@@ -535,7 +535,7 @@
     <value>Escolha o layout para os resultados da pesquisa</value>
   </data>
   <data name="SettingsThumbnailsHelp" xml:space="preserve">
-    <value>Show thumbnails for image files</value>
+    <value>Mostrar miniaturas para arquivos de imagens</value>
   </data>
   <data name="SettingsResultsCountHelp" xml:space="preserve">
     <value>Display the total number of search results</value>
@@ -562,7 +562,7 @@
     <value>Remember previous search terms for quick access</value>
   </data>
   <data name="SettingsEverythingFiltersHelp" xml:space="preserve">
-    <value>Synchronize Everything's custom filters</value>
+    <value>Sincronizar filtros customizados do Everything</value>
   </data>
   <data name="SettingsRememberFilterHelp" xml:space="preserve">
     <value>Remember the most recently used filter for future searches</value>
@@ -598,10 +598,10 @@
     <value>Enable system tray icon</value>
   </data>
   <data name="SettingsEnableSystemTrayIconHelp" xml:space="preserve">
-    <value>Enables the system tray icon to be able to quit EverythingToolbar easily</value>
+    <value>Ativa o ícone da bandeja do sistema para poder sair do EverythingToolbar facilmente</value>
   </data>
   <data name="SettingsSearchIcon" xml:space="preserve">
-    <value>Search icon</value>
+    <value>Ícone de Pesquisa</value>
   </data>
   <data name="SettingsSearchIconHelp" xml:space="preserve">
     <value>Changes the style of the taskbar icon (requires explorer restart)</value>
@@ -622,7 +622,7 @@
     <value>Uses Windows 10 styles to match certain legacy taskbar modifications</value>
   </data>
   <data name="UpdateSuccessfulBannerHeader" xml:space="preserve">
-    <value>EverythingToolbar {version} was updated successfully!</value>
+    <value>O EverythingToolbar foi atualizado com sucesso para a versão {version}!</value>
   </data>
   <data name="UpdateSuccessfulBannerText" xml:space="preserve">
     <value>If it makes your life easier, consider donating to support future updates.</value>
@@ -631,7 +631,7 @@
     <value>Donate</value>
   </data>
   <data name="UpdateSuccessfulBannerDismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Dispensar</value>
   </data>
   <data name="ShortcutOpenSystemContextMenu" xml:space="preserve">
     <value>Open system context menu</value>
