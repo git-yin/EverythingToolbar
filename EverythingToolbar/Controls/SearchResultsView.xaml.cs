@@ -72,6 +72,7 @@ namespace EverythingToolbar.Controls
         {
             if (ToolbarSettings.User.IsHideEmptySearchResults && string.IsNullOrEmpty(searchState.SearchTerm))
             {
+                _searchResultsCollection = null;
                 SearchResultsListView.ItemsSource = null;
                 TotalResultsCount = 0;
                 return;
