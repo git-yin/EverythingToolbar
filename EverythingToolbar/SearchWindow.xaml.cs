@@ -163,6 +163,14 @@ namespace EverythingToolbar
 
         private void AnimateShowWin10(double left, double top, Edge taskbarEdge)
         {
+            if (ToolbarSettings.User.IsAnimationsDisabled)
+            {
+                Opacity = 1;
+                Left = left;
+                Top = top;
+                return;
+            }
+
             DependencyProperty? property = null;
             double from = 0;
             double to = 0;
@@ -195,7 +203,7 @@ namespace EverythingToolbar
                 {
                     From = from,
                     To = to,
-                    Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.4),
+                    Duration = TimeSpan.FromSeconds(0.4),
                     EasingFunction = new QuinticEase { EasingMode = EasingMode.EaseOut },
                 }
             );
@@ -206,7 +214,7 @@ namespace EverythingToolbar
                 {
                     From = 0,
                     To = 1,
-                    Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.4),
+                    Duration = TimeSpan.FromSeconds(0.4),
                     EasingFunction = new QuinticEase { EasingMode = EasingMode.EaseOut },
                 }
             );
@@ -233,7 +241,7 @@ namespace EverythingToolbar
                 {
                     From = fromThickness,
                     To = new Thickness(0),
-                    Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.8),
+                    Duration = TimeSpan.FromSeconds(0.8),
                     EasingFunction = new QuinticEase { EasingMode = EasingMode.EaseOut },
                 }
             );
@@ -241,6 +249,14 @@ namespace EverythingToolbar
 
         private void AnimateShowWin11(double left, double top, double width, double height, Edge taskbarEdge)
         {
+            if (ToolbarSettings.User.IsAnimationsDisabled)
+            {
+                Opacity = 1;
+                Left = left;
+                Top = top;
+                return;
+            }
+
             DependencyProperty? property = null;
             double from = 0;
             double to = 0;
@@ -273,7 +289,7 @@ namespace EverythingToolbar
                 {
                     From = from,
                     To = to,
-                    Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.25),
+                    Duration = TimeSpan.FromSeconds(0.25),
                     EasingFunction = new PowerEase { EasingMode = EasingMode.EaseOut, Power = 5 },
                 }
             );
@@ -300,7 +316,7 @@ namespace EverythingToolbar
                 {
                     From = fromThickness,
                     To = new Thickness(0),
-                    Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.3),
+                    Duration = TimeSpan.FromSeconds(0.3),
                     EasingFunction = new PowerEase { EasingMode = EasingMode.EaseOut, Power = 5 },
                 }
             );
@@ -308,6 +324,12 @@ namespace EverythingToolbar
 
         private void AnimateHideWin10(Edge taskbarEdge)
         {
+            if (ToolbarSettings.User.IsAnimationsDisabled)
+            {
+                OnHidden(this, EventArgs.Empty);
+                return;
+            }
+
             BeginAnimation(
                 OpacityProperty,
                 new DoubleAnimation
@@ -339,17 +361,19 @@ namespace EverythingToolbar
                     property = TopProperty;
                     break;
             }
-            var animation = new DoubleAnimation
-            {
-                To = target,
-                Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromMilliseconds(30),
-            };
+            var animation = new DoubleAnimation { To = target, Duration = TimeSpan.FromMilliseconds(30) };
             animation.Completed += OnHidden;
             BeginAnimation(property, animation);
         }
 
         private void AnimateHideWin11(Edge taskbarEdge)
         {
+            if (ToolbarSettings.User.IsAnimationsDisabled)
+            {
+                OnHidden(this, EventArgs.Empty);
+                return;
+            }
+
             DependencyProperty? property = null;
             double from = 0;
             double to = 0;
@@ -381,7 +405,7 @@ namespace EverythingToolbar
             {
                 From = from,
                 To = to,
-                Duration = ToolbarSettings.User.IsAnimationsDisabled ? TimeSpan.Zero : TimeSpan.FromSeconds(0.25),
+                Duration = TimeSpan.FromSeconds(0.25),
                 EasingFunction = new PowerEase { EasingMode = EasingMode.EaseIn, Power = 6 },
             };
             animation.Completed += OnHidden;
