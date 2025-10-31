@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Forms;
@@ -8,6 +7,7 @@ using System.Windows.Interop;
 using EverythingToolbar.Helpers;
 using Microsoft.Xaml.Behaviors;
 using NLog;
+using FlowDirection = System.Windows.FlowDirection;
 using Size = System.Windows.Size;
 
 namespace EverythingToolbar.Launcher
@@ -127,7 +127,7 @@ namespace EverythingToolbar.Launcher
             }
             else
             {
-                if (CultureInfo.CurrentCulture.TextInfo.IsRightToLeft)
+                if (AssociatedObject.FlowDirection == FlowDirection.RightToLeft)
                 {
                     windowPosition.Right = screenWorkingArea.Right - margin;
                     windowPosition.Left = Math.Max(
